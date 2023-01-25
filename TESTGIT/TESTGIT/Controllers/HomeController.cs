@@ -15,6 +15,8 @@ namespace TESTGIT.Controllers
 
         public IActionResult Index()
         {
+            string filipovString = "Cao Filipe";
+            ViewBag.fString = filipovString;
             return View();
         }
 
